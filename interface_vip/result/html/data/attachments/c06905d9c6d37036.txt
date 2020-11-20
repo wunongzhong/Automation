@@ -1,0 +1,5 @@
+INFO     root:common_pytest.py:37 用例数据拆包开始。。。。
+INFO     root:common_pytest.py:39 替换body中的空格换行特殊字符开始。。。。
+INFO     root:common_pytest.py:42 转换存在可变变量开始。。。。
+INFO     root:request_common.py:18 执行统一请求方法开始。。。。。。。。。。。。。
+INFO     root:operator.py:20 执行get请求开始。。。。。。。。。。。。

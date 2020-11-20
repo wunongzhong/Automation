@@ -1,0 +1,87 @@
+{
+  "uid" : "5e9e00ed0b1b2ede",
+  "name" : "test_commonapi[case5]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "a2104061268646e24b8505f33669cd1e",
+  "time" : {
+    "start" : 1605768015877,
+    "stop" : 1605768015884,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c06905d9c6d37036",
+      "name" : "log",
+      "source" : "c06905d9c6d37036.txt",
+      "type" : "text/plain",
+      "size" : 432
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20181225JAL"
+  }, {
+    "name" : "thread",
+    "value" : "11452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['查询用户信息', 'http://127.0.0.1:5000/api/demo', None, None, 'get', 'url', 'cemaxueyuan', '$.data[0].from', 'loginname']"
+  } ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com",
+    "url" : "http://www.jira.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e9e00ed0b1b2ede.json",
+  "parameterValues" : [ "['查询用户信息', 'http://127.0.0.1:5000/api/demo', None, None, 'get', 'url', 'cemaxueyuan', '$.data[0].from', 'loginname']" ]
+}

@@ -1,0 +1,10 @@
+#dict 字典写法（key: value）
+-
+  url: http://www.baidu.com
+  txt: 后裔
+-
+  url: http://www.baidu.com
+  txt: 诸葛亮
+-
+  url: http://www.baidu.com
+  txt: 许褚

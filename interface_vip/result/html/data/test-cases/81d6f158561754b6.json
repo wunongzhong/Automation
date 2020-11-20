@@ -1,0 +1,97 @@
+{
+  "uid" : "81d6f158561754b6",
+  "name" : "test_commonapi[case0]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "5ae74a0f35ed57ea3c3d44e5fcccf098",
+  "time" : {
+    "start" : 1605768468918,
+    "stop" : 1605768468933,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7bd9ae7b796645",
+      "name" : "log",
+      "source" : "c7bd9ae7b796645.txt",
+      "type" : "text/plain",
+      "size" : 436
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20181225JAL"
+  }, {
+    "name" : "thread",
+    "value" : "1056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['验证登陆正常', 'http://127.0.0.1:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']"
+  } ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com",
+    "url" : "http://www.jira.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "dc774115c1da66d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605767995198,
+        "stop" : 1605768015754,
+        "duration" : 20556
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81d6f158561754b6.json",
+  "parameterValues" : [ "['验证登陆正常', 'http://127.0.0.1:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']" ]
+}

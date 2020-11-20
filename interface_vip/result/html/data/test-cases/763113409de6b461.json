@@ -1,0 +1,97 @@
+{
+  "uid" : "763113409de6b461",
+  "name" : "test_commonapi[case12]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "866e13620ae654e2cbbc7be3ab2ad240",
+  "time" : {
+    "start" : 1605768469167,
+    "stop" : 1605768469177,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db09b2b7d7adb167",
+      "name" : "log",
+      "source" : "db09b2b7d7adb167.txt",
+      "type" : "text/plain",
+      "size" : 1036
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20181225JAL"
+  }, {
+    "name" : "thread",
+    "value" : "1056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '用户名或密码错误', '$.msg', '/']"
+  } ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com",
+    "url" : "http://www.jira.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "db8e766ba6eb4df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768016014,
+        "stop" : 1605768016026,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "763113409de6b461.json",
+  "parameterValues" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '用户名或密码错误', '$.msg', '/']" ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "99988f0aeac1bd28",
+  "name" : "test_commonapi[case13]",
+  "fullName" : "frameworkddt.common_pytest.Test_Case#test_commonapi",
+  "historyId" : "d920eb481927518d5402b27d507b8c0a",
+  "time" : {
+    "start" : 1605768016032,
+    "stop" : 1605768016038,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4c0c66969891b8e",
+      "name" : "log",
+      "source" : "e4c0c66969891b8e.txt",
+      "type" : "text/plain",
+      "size" : 1491
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "frameworkddt"
+  }, {
+    "name" : "suite",
+    "value" : "common_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20181225JAL"
+  }, {
+    "name" : "thread",
+    "value" : "11452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "frameworkddt.common_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    '$loginname.data[0].name$': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']"
+  } ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com",
+    "url" : "http://www.jira.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99988f0aeac1bd28.json",
+  "parameterValues" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    '$loginname.data[0].name$': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+}

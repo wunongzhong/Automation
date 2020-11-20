@@ -1,0 +1,12 @@
+platformName: Android
+platformVersion: 6.0
+deviceName: Le X620
+udid: LE67A06290139177
+appPackage: com.tal.kaoyan
+app: C:\Users\Administrator\Desktop\kaoyan3.1.0.apk
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+noReset: False
+ip: 127.0.0.1
+port: 4723
+unicodeKeyboard: true
+resetKeyboard: true

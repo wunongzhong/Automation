@@ -1,0 +1,217 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录测试",
+    "children" : [ {
+      "name" : "test_commonapi[case0]",
+      "uid" : "81d6f158561754b6",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768468918,
+        "stop" : 1605768468933,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['验证登陆正常', 'http://127.0.0.1:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.msg', 'loginvar']" ]
+    }, {
+      "name" : "test_commonapi[case1]",
+      "uid" : "68798eb7b0f1db35",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768468940,
+        "stop" : 1605768468950,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['获取账户信息', 'http://127.0.0.1:5000/api/getproductinfo?productid=8888', None, None, 'get', 'url', 200, '$.httpstatus', 'productvar']" ]
+    }, {
+      "name" : "test_commonapi[case2]",
+      "uid" : "5c088128006cb955",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768468959,
+        "stop" : 1605768468973,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['获取商品信息', 'http://127.0.0.1:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', 200, '$.httpstatus', 'uservar']" ]
+    }, {
+      "name" : "test_commonapi[case3]",
+      "uid" : "6425870d3e6da94a",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768468979,
+        "stop" : 1605768468998,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['加入购物车', 'http://127.0.0.1:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 200, '$.httpstatus', 'cartinfo']" ]
+    }, {
+      "name" : "test_commonapi[case4]",
+      "uid" : "56208fc0f3e9e86b",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469007,
+        "stop" : 1605768469026,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['创建订单信息', 'http://127.0.0.1:5000/api/createorder', '{\"cartid\":$cartinfo.data[0].cartid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$,\"userid\":$uservar.data[0].userid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 200, '$.httpstatus', '/']" ]
+    }, {
+      "name" : "test_commonapi[case5]",
+      "uid" : "8c9c7cad4e45b391",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469033,
+        "stop" : 1605768469041,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['查询用户信息', 'http://127.0.0.1:5000/api/demo', None, None, 'get', 'url', 'cemaxueyuan', '$.data[0].from', 'loginname']" ]
+    }, {
+      "name" : "test_commonapi[case6]",
+      "uid" : "f57d6898517c44d4",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469047,
+        "stop" : 1605768469063,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '用户名或密码错误', '$.msg', '/']" ]
+    }, {
+      "name" : "test_commonapi[case7]",
+      "uid" : "4c198ab7ccf46cbd",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469071,
+        "stop" : 1605768469083,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名选择错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    }, {
+      "name" : "test_commonapi[case8]",
+      "uid" : "c502afd18746ea29",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469092,
+        "stop" : 1605768469108,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名错误1', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].name$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    }, {
+      "name" : "test_commonapi[case9]",
+      "uid" : "da14bd5fcd48b08f",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469114,
+        "stop" : 1605768469128,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名错误2', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    }, {
+      "name" : "test_commonapi[case10]",
+      "uid" : "c33681cb3e0a58be",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469134,
+        "stop" : 1605768469142,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['获取用户信息1', 'http://127.0.0.1:5000/api/demo', None, None, 'get', 'url', 'cemaxueyuan', '$.data[0].from', 'loginname']" ]
+    }, {
+      "name" : "test_commonapi[case11]",
+      "uid" : "90a1292cc4a3d517",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469149,
+        "stop" : 1605768469159,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['获取用户信息2', 'http://127.0.0.1:5000/api/demo', None, None, 'get', 'url', 'cemaxueyuan', '$.data[0].from', 'loginvar']" ]
+    }, {
+      "name" : "test_commonapi[case12]",
+      "uid" : "763113409de6b461",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469167,
+        "stop" : 1605768469177,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '用户名或密码错误', '$.msg', '/']" ]
+    }, {
+      "name" : "test_commonapi[case13]",
+      "uid" : "63c5da5daef81123",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469185,
+        "stop" : 1605768469198,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginname.data[0].from$',\\n                    '$loginname.data[0].name$': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    }, {
+      "name" : "test_commonapi[case14]",
+      "uid" : "77d2337a98b5315b",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469204,
+        "stop" : 1605768469218,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': 'admin',\\n                    'password': '$loginvar.data[0].name$'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    }, {
+      "name" : "test_commonapi[case15]",
+      "uid" : "d892a3d0bde13182",
+      "parentUid" : "125e6bc612e07176324ee8ccc5907252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605768469224,
+        "stop" : 1605768469238,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['用户名输入错误', 'http://127.0.0.1:5000/api/login', \"{\\n                    'username': '$loginvar.data[0].from$',\\n                    'password': '123456'\\n                }\", '{\"content-type\": \"application/json\"}', 'post', 'json', '001', '$.code', '/']" ]
+    } ],
+    "uid" : "125e6bc612e07176324ee8ccc5907252"
+  } ]
+}

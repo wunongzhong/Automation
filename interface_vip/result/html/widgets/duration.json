@@ -1,0 +1,161 @@
+[ {
+  "uid" : "763113409de6b461",
+  "name" : "test_commonapi[case12]",
+  "time" : {
+    "start" : 1605768469167,
+    "stop" : 1605768469177,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6425870d3e6da94a",
+  "name" : "test_commonapi[case3]",
+  "time" : {
+    "start" : 1605768468979,
+    "stop" : 1605768468998,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "77d2337a98b5315b",
+  "name" : "test_commonapi[case14]",
+  "time" : {
+    "start" : 1605768469204,
+    "stop" : 1605768469218,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "da14bd5fcd48b08f",
+  "name" : "test_commonapi[case9]",
+  "time" : {
+    "start" : 1605768469114,
+    "stop" : 1605768469128,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4c198ab7ccf46cbd",
+  "name" : "test_commonapi[case7]",
+  "time" : {
+    "start" : 1605768469071,
+    "stop" : 1605768469083,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f57d6898517c44d4",
+  "name" : "test_commonapi[case6]",
+  "time" : {
+    "start" : 1605768469047,
+    "stop" : 1605768469063,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c502afd18746ea29",
+  "name" : "test_commonapi[case8]",
+  "time" : {
+    "start" : 1605768469092,
+    "stop" : 1605768469108,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "81d6f158561754b6",
+  "name" : "test_commonapi[case0]",
+  "time" : {
+    "start" : 1605768468918,
+    "stop" : 1605768468933,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "68798eb7b0f1db35",
+  "name" : "test_commonapi[case1]",
+  "time" : {
+    "start" : 1605768468940,
+    "stop" : 1605768468950,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5c088128006cb955",
+  "name" : "test_commonapi[case2]",
+  "time" : {
+    "start" : 1605768468959,
+    "stop" : 1605768468973,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d892a3d0bde13182",
+  "name" : "test_commonapi[case15]",
+  "time" : {
+    "start" : 1605768469224,
+    "stop" : 1605768469238,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "90a1292cc4a3d517",
+  "name" : "test_commonapi[case11]",
+  "time" : {
+    "start" : 1605768469149,
+    "stop" : 1605768469159,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8c9c7cad4e45b391",
+  "name" : "test_commonapi[case5]",
+  "time" : {
+    "start" : 1605768469033,
+    "stop" : 1605768469041,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c33681cb3e0a58be",
+  "name" : "test_commonapi[case10]",
+  "time" : {
+    "start" : 1605768469134,
+    "stop" : 1605768469142,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "56208fc0f3e9e86b",
+  "name" : "test_commonapi[case4]",
+  "time" : {
+    "start" : 1605768469007,
+    "stop" : 1605768469026,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "63c5da5daef81123",
+  "name" : "test_commonapi[case13]",
+  "time" : {
+    "start" : 1605768469185,
+    "stop" : 1605768469198,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
